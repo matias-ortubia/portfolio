@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #000;
+    color: #FFF;
+    
+    padding-top: 0.2rem;
+    height: 4rem;
+}
+
+.socialsContainer {
+    display: flex;
+    gap: 1rem;
+}
