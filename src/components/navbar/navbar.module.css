@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    bottom: 0%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        padding-left: 2px;
+        flex-flow: column nowrap;
+        gap: 2rem;
+        padding-bottom: 0;
+        height: 100%;
+        width: fit-content;
+        right: 3%;
+    }
+}
