@@ -4,15 +4,21 @@
     justify-content: center;
     gap: 1rem;
     bottom: 0%;
+    padding-bottom: 2vh;
     width: 100%;
+    background: var(--color-background);
+    box-shadow: 0 -10px 4px 4px var(--bg-color);
 }
+
 
 @media screen and (min-width: 1024px) {
     .navbar {
         padding-left: 2px;
         flex-flow: column nowrap;
+        justify-content: center;
         gap: 2rem;
         padding-bottom: 0;
+        border-top: none;
         height: 100%;
         width: fit-content;
         right: 3%;

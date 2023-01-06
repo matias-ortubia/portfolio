@@ -1,0 +1,38 @@
+.navButton {
+    color: var(--color-text);
+    box-shadow: 0 4px 2px -2px var(--color-secondary);
+    cursor: pointer;
+    width: 7rem;
+    height: 2.7rem;
+    margin-left: -2px;
+}
+
+.active {
+    color: var(--color-highlighted);
+    text-shadow: 1px 1px 10px var(--color-highlighted);
+    border-bottom: none;
+    box-shadow: 0 4px 2px -2px var(--color-highlighted);
+    transition: all 0s !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .navButton {
+        transition: all 0.1s ease-in;
+        border-left: none;
+        border-right: none;
+    }
+    
+    .navButton:hover {
+        color: var(--color-highlighted);
+        text-shadow: 1px 1px 10px var(--color-highlighted);
+        box-shadow: 0 4px 2px -2px var(--color-highlighted);
+        transition: all 0.1s ease-in;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navButton {
+        font-size: 1.2rem;
+        width: 6rem;
+    }
+}
