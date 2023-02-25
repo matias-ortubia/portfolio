@@ -4,17 +4,24 @@
     padding: 0;
 }
 
-:root {
+.darkMode {
   --color-primary: #000519;
   --color-secondary: #f3f3f7;
   --color-highlighted: #859dff;
 }
 
-:root {
+.lightMode {
+  --color-primary: #f3f3f7;
+  --color-secondary: #000519;
+  --color-highlighted: #859dff;
+}
+
+.container {
   --color-background: var(--color-primary);
   --color-text: var(--color-secondary);
   --color-header-background: var(--color-secondary);
   --color-navbutton-active: var(--color-highlighted);
+  --color-icon: var(--color-primary);
 }
 
 html {
