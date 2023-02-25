@@ -1,0 +1,12 @@
+.toggleThemeButton {
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: fit-content;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+    color: var(--icon-color);
+}

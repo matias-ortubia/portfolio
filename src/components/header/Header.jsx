@@ -1,3 +1,4 @@
+import { ThemeToggleButton } from '../';
 import styles from './header.module.css';
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
             <div className={ styles.socialsContainer }>
                 Socials
             </div>
-            Theme
+            <ThemeToggleButton />
         </header>
     );
 };
