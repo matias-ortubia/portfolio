@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ThemeContext } from './ThemeContext';
 
-export const ThemeContextWrapper = ({children}) => {
+export const ThemeContextWrapper = ({ children }) => {
     const [darkMode, setDarkMode] = useState(true);
 
     function toggleDarkMode() {
