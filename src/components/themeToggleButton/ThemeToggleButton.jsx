@@ -11,7 +11,7 @@ const ThemeToggleButton = () => {
             { darkMode === true ?
                 <BsMoonStarsFill className={ `${styles.icon} ${styles.iconDarkMode}` } />
                 : <BsSunFill className={ styles.icon } />
-            };
+            }
         </button>
     );
 };

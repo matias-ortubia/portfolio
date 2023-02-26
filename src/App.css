@@ -55,6 +55,10 @@ button {
     border: none;
 }
 
+.color-icon-primary {
+  fill: var(--color-primary);
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     align-items: center;
