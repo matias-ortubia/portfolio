@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    width: 80vw;
+}
+
+.contact {
+    justify-content: center;
+    align-items: center;
+}
+
+.formTitle {
+    font-size: 4.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: fit-content;
+    }
+
+    .formTitle {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .contact {
+        margin-top: 5rem;
+        padding-bottom: 10%;
+        height: fit-content;
+    }
+}

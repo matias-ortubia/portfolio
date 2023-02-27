@@ -8,10 +8,10 @@
 }
 
 .active {
-    color: var(--color-highlighted);
-    text-shadow: 1px 1px 10px var(--color-highlighted);
+    color: var(--color-highlight);
+    text-shadow: 1px 1px 10px var(--color-highlight);
     border-bottom: none;
-    box-shadow: 0 4px 2px -2px var(--color-highlighted);
+    box-shadow: 0 4px 2px -2px var(--color-highlight);
     transition: all 0s !important;
 }
 
@@ -23,9 +23,9 @@
     }
     
     .navButton:hover {
-        color: var(--color-highlighted);
-        text-shadow: 1px 1px 10px var(--color-highlighted);
-        box-shadow: 0 4px 2px -2px var(--color-highlighted);
+        color: var(--color-highlight);
+        text-shadow: 1px 1px 10px var(--color-highlight);
+        box-shadow: 0 4px 2px -2px var(--color-highlight);
         transition: all 0.1s ease-in;
     }
 }
