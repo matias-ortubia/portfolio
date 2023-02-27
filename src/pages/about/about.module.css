@@ -1,0 +1,39 @@
+.about {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+    width: 85vw;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 4.5rem;
+}
+
+.text {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.textHighlight {
+    color: var(--color-highlight);
+}
+
+.textHighlight2 {
+    color: var(--color-highlight);
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 800px;
+    }
+
+    .title {
+        font-size: 7rem;
+    }
+}

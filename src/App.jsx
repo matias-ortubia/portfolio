@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeContext } from './context/ThemeContext.js';
 import { Header, Navbar } from './components';
-import { Home, Contact } from './pages';
+import { Home, About, Contact } from './pages';
 import './App.css';
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/" element={ <Home /> } />
           <Route path="/home" element={ <Home /> } />
           <Route path="/index" element={ <Home /> } />
-          <Route path="/projects" element={ <h1>Projects</h1> } />
+          <Route path="/about" element={ <About /> } />
           <Route path="/contact" element={ <Contact /> } />
           <Route path="*" element={ <h1>404 Not Found</h1> } />
         </Routes>

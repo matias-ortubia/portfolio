@@ -21,12 +21,12 @@ const Navbar = () => {
                     HOME
                 </NavButton>
             </Link>
-            <Link to="/projects"
-                  style={{ pointerEvents: (location.pathname === '/projects') ? 'none' : '' }}>
+            <Link to="/about"
+                  style={{ pointerEvents: (location.pathname === '/about') ? 'none' : '' }}>
                 <NavButton handleClick={ handleClick } 
-                           tabFor="/projects" 
+                           tabFor="/about" 
                            activeTab={ activeButton }>
-                    PROJECTS
+                    ABOUT
                 </NavButton>
             </Link>
             <Link to="/contact"
