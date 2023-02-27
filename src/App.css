@@ -14,7 +14,8 @@
 .lightMode {
   --color-primary: #f3f3f7;
   --color-secondary: #000519;
-  --color-highlighted: #859dff;
+  --color-highlight: #859dff;
+  --color-highlight-dimmed: #556fd8;
 }
 
 .container {
