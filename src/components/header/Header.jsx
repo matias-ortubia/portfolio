@@ -5,15 +5,15 @@ const Header = () => {
     return (
         <header>
             <div className={ styles.socialsContainer }>
-                <button>
+                <a href="https://github.com/matiasortubia/" target="_blank">
                     <GithubIcon className="color-icon-primary" size="2.7rem" />
-                </button>
-                <button>
+                </a>
+                <a href="https://www.linkedin.com/in/matiasortubia/" target="_blank">
                     <LinkedinIcon className="color-icon-primary" size="2.7rem" />
-                </button>
-                <button>
+                </a>
+                <a href="https://twitter.com/MatiRtb" target="_blank">
                     <TwitterIcon className="color-icon-primary" size="2.7rem" />
-                </button>
+                </a>
             </div>
             <ThemeToggleButton />
         </header>
