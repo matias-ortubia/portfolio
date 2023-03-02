@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Home, About, Contact } from '../../pages';
+import { Home, About, Contact, NotFound } from '../../pages';
 import './animatedRoutes.css';
 
 const AnimatedRoutes = () => {
@@ -21,15 +21,14 @@ const AnimatedRoutes = () => {
 
     return (
         <div className={ `content ${transitionStage}` }
-             onAnimationEnd={handleAnimationEnd}
-        >
+             onAnimationEnd={handleAnimationEnd}>
             <Routes location={ displayLocation }>
                 <Route exact path="/" element={ <Home /> } />
                 <Route path="/home" element={ <Home /> } />
                 <Route path="/index" element={ <Home /> } />
                 <Route path="/about" element={ <About /> } />
                 <Route path="/contact" element={ <Contact /> } />
-                <Route path="*" element={ <h1>404 Not Found</h1> } />
+                <Route path="*" element={ <NotFound /> } />
             </Routes>
         </div>
     );
