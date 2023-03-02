@@ -1,8 +1,7 @@
 import { useContext, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeContext } from './context/ThemeContext.js';
-import { Header, Navbar } from './components';
-import { Home, About, Contact } from './pages';
+import { AnimatedRoutes, Header, Navbar } from './components';
 import './App.css';
 
 function App() {
@@ -23,14 +22,7 @@ function App() {
     <div className={ `container ${darkMode ? "darkMode" : "lightMode"}` }>
       <Header />
       <Router>
-        <Routes>
-          <Route exact path="/" element={ <Home /> } />
-          <Route path="/home" element={ <Home /> } />
-          <Route path="/index" element={ <Home /> } />
-          <Route path="/about" element={ <About /> } />
-          <Route path="/contact" element={ <Contact /> } />
-          <Route path="*" element={ <h1>404 Not Found</h1> } />
-        </Routes>
+        <AnimatedRoutes />
         <Navbar />
       </Router>
     </div>
