@@ -4,11 +4,15 @@
 }
 
 .name {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800; 
     font-size: 4.5rem;
 }
 
 .title {
     font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
 }
 
 @media screen and (min-width: 1024px) {

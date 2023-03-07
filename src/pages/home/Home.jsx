@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <section className={ styles.home }>
             <div className={ styles.titleContainer }>
-                <h1 className={ styles.name }>
+                <h1 className={ `txt-shadow-solid ${styles.name}` }>
                     Hi! I'm Matías
                 </h1>
                 <h2 className={ styles.title }>
