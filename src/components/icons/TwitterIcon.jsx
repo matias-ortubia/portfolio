@@ -1,3 +1,5 @@
+import './icons.css';
+
 const TwitterIcon = (({ size, className }) => {
     return (
         <svg className={ className }

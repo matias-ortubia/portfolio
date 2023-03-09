@@ -12,7 +12,7 @@ const Home = () => {
                     Web Developer
                 </h2>
             </div>
-            <div class={ styles.socialsContainer }>
+            <div className={ styles.socialsContainer }>
                 <div className={ styles.line } />
                     <a href="https://github.com/matiasortubia/" target="_blank">
                         <GithubIcon className="color-icon-secondary" size="4rem" />

@@ -1,3 +1,5 @@
+import './icons.css';
+
 const GithubIcon = (({ size, className }) => {
     return (
         <svg className={ className }

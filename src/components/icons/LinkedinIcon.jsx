@@ -1,3 +1,5 @@
+import './icons.css';
+
 const LinkedinIcon = (({ size, className }) => {
     return (
         <svg className={ className }

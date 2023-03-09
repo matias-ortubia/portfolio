@@ -3,6 +3,10 @@
     align-items: center;
 }
 
+.titleContainer {
+    animation: floating 4s ease-in-out infinite;
+}
+
 .name {
     font-family: 'Manrope', sans-serif;
     font-weight: 800; 
@@ -27,6 +31,18 @@
     flex-grow: 1;
     height: 2px;
     background-color: var(--color-line);
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 7px);
+    }
+    50% {
+        transform: translate(0, -7px);
+    }
+    100% {
+        transform: translate(0, 7px);
+    }
 }
 
 @media screen and (min-width: 1024px) {
