@@ -15,7 +15,7 @@ function App() {
       r = document.querySelector('.lightMode');
     }
     let rs = getComputedStyle(r);
-    document.body.style.backgroundColor = rs.getPropertyValue('--primary-color');
+    document.body.style.backgroundColor = rs.getPropertyValue('--color-primary');
   }, [darkMode]);
 
   return (

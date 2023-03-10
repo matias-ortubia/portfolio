@@ -86,7 +86,6 @@
 
 html {
   font-size: 62.5%;
-  font-weight: 400;
 }
 
 html, body, #root {
@@ -98,11 +97,9 @@ html, body, #root {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-
-  background: var(--color-background);
-  color: var(--color-text);
-
   font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  color: var(--color-text);
 }
 
 section {
