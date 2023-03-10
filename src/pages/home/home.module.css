@@ -3,6 +3,10 @@
     align-items: center;
 }
 
+.titleContainer {
+    animation: floating 4s ease-in-out infinite;
+}
+
 .name {
     font-family: 'Manrope', sans-serif;
     font-weight: 800; 
@@ -13,6 +17,32 @@
     font-size: 3rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
+}
+
+.socialsContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: var(--color-line);
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 7px);
+    }
+    50% {
+        transform: translate(0, -7px);
+    }
+    100% {
+        transform: translate(0, 7px);
+    }
 }
 
 @media screen and (min-width: 1024px) {

@@ -58,6 +58,7 @@
 
 .darkMode {
   --color-primary: #000519;
+  --color-primary-dimmed: #1c223b;
   --color-secondary: #f3f3f7;
   --color-highlight: #859dff;
   --color-highlight-dimmed: #556fd8;
@@ -66,6 +67,7 @@
 
 .lightMode {
   --color-primary: #f3f3f7;
+  --color-primary-dimmed: #dcdae7;
   --color-secondary: #000519;
   --color-highlight: #859dff;
   --color-highlight-dimmed: #556fd8;
@@ -82,6 +84,7 @@
   --color-button-accept: var(--color-highlight);
   --color-button-accept-hover: var(--color-highlight-dimmed);
   --color-txt-shadow-solid: var(--color-highlight-contrast);
+  --color-line: var(--color-primary-dimmed);
 }
 
 html {
@@ -118,6 +121,10 @@ button {
 
 .color-icon-primary {
   fill: var(--color-primary);
+}
+
+.color-icon-secondary {
+  fill: var(--color-secondary);
 }
 
 .txt-shadow-solid {
