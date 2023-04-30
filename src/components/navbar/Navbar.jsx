@@ -29,14 +29,14 @@ const Navbar = () => {
                     ABOUT
                 </NavButton>
             </Link>
-            <Link to="/contact"
+            {/*<Link to="/contact"
                   style={{ pointerEvents: (location.pathname === '/contact') ? 'none' : '' }}>
                 <NavButton handleClick={ handleClick } 
                            tabFor="/contact" 
                            activeTab={ activeButton }>
                     CONTACT
                 </NavButton>
-            </Link>
+    </Link>*/}
         </nav>
     );
 };

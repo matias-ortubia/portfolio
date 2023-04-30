@@ -1,6 +1,9 @@
 .about {
     justify-content: center;
     align-items: center;
+
+    margin-top: 22rem;
+    padding-bottom: 25rem;
 }
 
 .container {
@@ -11,9 +14,16 @@
     gap: 2rem;
 }
 
-.title {
+.title, .subtitle {
     font-family: 'Manrope', sans-serif;
+}
+
+.title {
     font-size: 4.5rem;
+}
+
+.subtitle {
+    font-size: 4rem;
 }
 
 .text {
@@ -30,6 +40,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .about {
+        margin: 0;
+        padding: 0;
+    }
+    
     .container {
         width: 800px;
     }
