@@ -5,7 +5,7 @@ const SkillsContainer = () => {
     return (
         <div className={ styles.cardsContainer }>
             <SkillCard logo="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black">
-                I self-learned ReactJS and then I took part in a group where we made a small project.
+                I self-learned ReactJS, and then I took part in a group where we made a small project.
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
