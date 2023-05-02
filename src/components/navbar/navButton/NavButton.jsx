@@ -10,7 +10,8 @@ const NavButton = ({ activeTab, tabFor, handleClick, children }) => {
     
     return (
         <button onClick={ () => handleClick(tabFor) } 
-                className={ `${styles.navButton} ${isActive ? styles.active : ""}` }>
+                className={ `${styles.navButton} ${isActive ? styles.active : ""}` }
+                translate='no'>
             { children }    
         </button>
     );

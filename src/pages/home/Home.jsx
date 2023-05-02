@@ -5,10 +5,12 @@ const Home = () => {
     return (
         <section className={ styles.home }>
             <div className={ styles.titleContainer }>
-                <h1 className={ `txt-shadow-solid ${styles.name}` }>
+                <h1 className={ `txt-shadow-solid ${styles.name}` }
+                    translate='no'>
                     Hi! I'm Matías
                 </h1>
-                <h2 className={ styles.title }>
+                <h2 className={ styles.title }
+                    translate='no'>
                     Fullstack Developer
                 </h2>
             </div>
