@@ -14,18 +14,22 @@ const Navbar = () => {
     return (
         <nav className={ styles.navbar }>
             <Link to="/"
-                  style={{ pointerEvents: (location.pathname === '/') ? 'none' : '' }} >
+                  style={{ pointerEvents: (location.pathname === '/') ? 'none' : '' }}
+                  tabindex="1" >
                 <NavButton handleClick={ handleClick } 
                            tabFor="/" 
-                           activeTab={ activeButton }>
+                           activeTab={ activeButton }
+                           tabindex="-1">
                     HOME
                 </NavButton>
             </Link>
             <Link to="/about"
-                  style={{ pointerEvents: (location.pathname === '/about') ? 'none' : '' }}>
+                  style={{ pointerEvents: (location.pathname === '/about') ? 'none' : '' }}
+                  tabindex="2">
                 <NavButton handleClick={ handleClick } 
                            tabFor="/about" 
-                           activeTab={ activeButton }>
+                           activeTab={ activeButton }
+                           tabindex="-1">
                     ABOUT
                 </NavButton>
             </Link>

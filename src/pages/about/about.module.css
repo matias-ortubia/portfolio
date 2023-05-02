@@ -1,9 +1,6 @@
 .about {
     justify-content: center;
     align-items: center;
-
-    margin-top: 22rem;
-    padding-bottom: 25rem;
 }
 
 .container {
@@ -12,6 +9,9 @@
     align-items: left;
     width: 85vw;
     gap: 2rem;
+
+    height: 100%;
+    padding-top: 15%;
 }
 
 .title, .subtitle {
@@ -40,13 +40,10 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .about {
-        margin: 0;
-        padding: 0;
-    }
-    
     .container {
         width: 800px;
+        padding-top: 0;
+        height: fit-content;
     }
 
     .title {
