@@ -14,7 +14,7 @@ const Home = () => {
             </div>
             <div className={ styles.socialsContainer }>
                 <div className={ styles.line } />
-                    <a href="https://github.com/matiasortubia/" target="_blank">
+                    <a href="https://github.com/matias-ortubia/" target="_blank">
                         <GithubIcon className="color-icon-secondary" size="4rem" />
                     </a>
                     <a href="https://www.linkedin.com/in/matiasortubia/" target="_blank">
