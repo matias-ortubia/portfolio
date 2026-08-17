@@ -23,14 +23,14 @@ const Navbar = () => {
                     HOME
                 </NavButton>
             </Link>
-            <Link to="/about"
-                  style={{ pointerEvents: (location.pathname === '/about') ? 'none' : '' }}
+            <Link to="/skills"
+                  style={{ pointerEvents: (location.pathname === '/skills') ? 'none' : '' }}
                   tabindex="2">
                 <NavButton handleClick={ handleClick } 
-                           tabFor="/about" 
+                           tabFor="/skills" 
                            activeTab={ activeButton }
                            tabindex="-1">
-                    ABOUT
+                    SKILLS
                 </NavButton>
             </Link>
             {/*<Link to="/contact"
@@ -46,19 +46,3 @@ const Navbar = () => {
 };
 
 export { Navbar };
-
-/*import { Link } from 'react-router-dom';
-import { NavButton } from './components';
-import styles from './navbar.module.css';
-
-const Navbar = () => {
-    return (
-        <nav className={ styles.navbar }>
-            <Link to="/">HOME</Link>
-            <Link to="/projects">PROJECTS</Link>
-            <Link to="/contact">CONTACT</Link>
-        </nav>
-    );
-}
-
-export { Navbar };*/

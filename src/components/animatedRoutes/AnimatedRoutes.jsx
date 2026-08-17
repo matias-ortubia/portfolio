@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Home, About, Contact, NotFound } from '../../pages';
+import { Home, Skills, Contact, NotFound } from '../../pages';
 import './animatedRoutes.css';
 
 const AnimatedRoutes = () => {
@@ -26,7 +26,7 @@ const AnimatedRoutes = () => {
                 <Route exact path="/" element={ <Home /> } />
                 <Route path="/home" element={ <Home /> } />
                 <Route path="/index" element={ <Home /> } />
-                <Route path="/about" element={ <About /> } />
+                <Route path="/skills" element={ <Skills /> } />
             {/*    <Route path="/contact" element={ <Contact /> } /> */}
                 <Route path="*" element={ <NotFound /> } />
             </Routes>
