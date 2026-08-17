@@ -9,7 +9,7 @@ const Home = () => {
                     Hi! I'm Matías
                 </h1>
                 <h2 className={ styles.title }>
-                    Fullstack Developer
+                    Full Stack Developer
                 </h2>
             </div>
             <div className={ styles.socialsContainer }>
