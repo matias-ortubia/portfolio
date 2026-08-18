@@ -9,7 +9,8 @@ const SkillsContainer = () => {
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
-                3 years of experience working with Angular, implementing new features proposed by the product and UX/UI teams, and mantaining the application.
+                3 years of experience working with Angular, implementing new features proposed by the product and UX/UI teams, 
+                and mantaining the application
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white">
@@ -17,7 +18,7 @@ const SkillsContainer = () => {
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/Git-%23FFFFFF.svg?style=for-the-badge&logo=Git&logoColor=F05032">
-                Experience managing GIT repositories, using Github Actions, and knowledge on GIT Flow.
+                Experience managing GIT repositories, using Github Actions, and knowledge of GIT Flow
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/Cloud-Amazon_AWS-blue?logo=amazonaws">
@@ -25,15 +26,15 @@ const SkillsContainer = () => {
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black">
-                I self-learned ReactJS, and then I took part in a group where we made a small project.
+                I self-learned ReactJS, and then I took part in a group where we made a small project
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
-                I learned Python in university and in my first course on Full Stack Development.
+                I learned Python in university and in my first course on Full Stack Development
             </SkillCard>
 
             <SkillCard logo="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white">
-                I took part in a Backend Development course where I learned Django and Django REST Framework.
+                I took part in a Backend Development course where I learned Django and Django REST Framework
             </SkillCard>
         </div>
     );
